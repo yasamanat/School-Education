@@ -10,19 +10,20 @@
     display: flex;
     align-items: center;
 
+
 }
 
 
 .left {
     width: 785px;
-    height: 765px;
-
+    flex: 1;
 }
 
 .right {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    flex: 1;
 
 }
 
@@ -68,17 +69,13 @@
 
 }
 
-.container-2 {
-    margin: 249px;
-
-
-}
+.container-2 {}
 
 .feture {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 12px;
+    margin-top: 200px;
 
 
 }
@@ -101,7 +98,7 @@
     justify-content: center;
     gap: 20px;
     margin: 19px;
-    
+
 
 }
 
@@ -155,7 +152,8 @@
     position: relative;
     padding: 50px;
     box-shadow: 7px 7px;
-    
+    flex: 1;
+
 }
 
 .icon-card {
@@ -169,67 +167,82 @@
     padding: 8px;
 
 }
-.testimonials{
+
+.testimonials {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+
 .testimonial-card {
-  background: white;
-  border: 2px solid black;
-  border-radius: 12px;
-  padding: 40px 30px;
-  width: 280px;
-  min-height: 380px;
-  box-shadow: 7px 7px;
-  text-align: center;
-  font-family: Outfit;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-  align-items: center;
+    background: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    min-height: 380px;
+    box-shadow: 7px 7px;
+    text-align: center;
+    font-family: Outfit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
-.left-arow , .right-arow {
+.testimonial-card p{
+    text-align: justify;
+}
+
+.left-arow,
+.right-arow {
     border: 2px solid #333333;
     border-radius: 8px;
     padding: 14px;
-    gap:10px;
+    gap: 10px;
     background-color: #FFFFFF;
 }
-.left-arow{
+
+.left-arow {
     margin-right: 20px;
 }
-.right-arow{
+
+.right-arow {
     margin-left: 20px;
 }
-.container-4{
+
+.container-4 {
     margin: 200px;
 }
-.info{}
 
-.info-top , .info-botton{
+.info {}
+
+.info-top,
+.info-botton {
     display: flex;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
     margin-bottom: 30px;
 }
-.info-card{
-    
+
+.info-card {
+
     border: 2px solid black;
     border-radius: 12px;
-    
+
     text-align: center;
     box-shadow: 4px 4px;
 }
-.info-card p{
+
+.info-card p {
     font-family: Outfit;
     margin-top: 20px;
 }
+
 .info-card h2 {
     margin-bottom: 20px;
 }
-.info-button{
+
+.info-button {
     border: 2px solid black;
     background-color: #FFBE99;
     border-radius: 12px;
